@@ -1,0 +1,83 @@
+{   
+    "editor.fontSize": 13,
+
+    "workbench.colorTheme": "Visual Studio Dark - C++",
+
+    "editor.bracketPairColorization.enabled": false, 
+
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.guides.highlightActiveIndentation": false,
+
+    "editor.guides.bracketPairs": false,
+    "editor.guides.indentation": false,
+
+    "workbench.colorCustomizations": {
+
+        "[Visual Studio Dark - C++]": {
+            
+            "list.activeSelectionBackground": "#363636",
+            "list.activeSelectionForeground": "#ffffff",
+            "list.focusOutline": "#4e4e4e",
+            "list.hoverForeground": "#ffffff",
+            "minimap.findMatchHighlight": "#818181",
+            "minimap.selectionHighlight": "#ffffff"
+        }
+    },
+
+    "editor.tokenColorCustomizations": {
+
+        "[Visual Studio Dark - C++]": {
+            "functions": "#9CDCFE",
+            "keywords": "#4C96A8",
+            "types": "#FCAC51",
+            "strings": "#889B4A",
+
+            "textMateRules": [
+                {
+                    "scope": "variable.parameter.function",
+                    "settings": {
+                        "foreground":"#9CDCFE"
+                        }
+                },
+                {
+                    "scope": "variable.parameter.function-call.python",
+                    "settings": {
+                        "foreground": "#9CDCFE"
+                        }
+                },
+                {
+                    "scope": ["punctuation.definition.arguments.end.python", "punctuation.definition.arguments.begin.python"],
+                    "settings": {
+                        "foreground": "#9CDCFE"
+                    }
+                },
+                {
+                    "scope": ["punctuation.definition.dict.begin.python", "punctuation.definition.dict.end.python"],
+                    "settings": {
+                        "foreground": "#FCAC51"
+                    }
+                },
+                {
+                    "scope": ["punctuation.definition.parameters.begin.python", "punctuation.definition.parameters.end.python"],
+                    "settings": {
+                        "foreground": "#FCAC51"
+                    }
+                },
+                // F-String Inner-Braces & New-Line Character
+                {
+                    "scope": ["constant.character.format.placeholder.other.python", "constant.character.escape.python"],
+                    "settings": {
+                        "foreground": "#FCAC51"
+                    }
+                },
+                {
+                    "scope": "meta.function-call.generic.python",
+                    "settings": {
+                        "foreground": "#c3c3c3",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        }
+    }
+}
